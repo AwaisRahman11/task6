@@ -96,11 +96,13 @@ body{
 
 @media (max-width: 551px) {
     .right {
-        height: 178vh;
+        height: 200vh;
         width: 100%;
+        margin-top: 30px;
 }
 .right .card{
     width: 110% !important;
+    margin: 40px 0;
 }
 .buttons{
    padding-left: 20px;
