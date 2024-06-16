@@ -8,6 +8,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.buttons{
+    padding-left: 36px;
+    width: 30%;
+}
 .left img {
   height: 470px !important;
   width: 447px;
@@ -27,7 +31,7 @@ hr {
 }
 .container {
   height: auto;
-  width: 110%;
+  width: 125%;
   padding: 0;
 }
 .right img {
@@ -66,7 +70,7 @@ h2 {
 #n-btn {
   background-color: rgba(217, 220, 222, 0.267);
   border: none;
-  margin-right: 70px;
+  padding: 5px 37px;
 }
 .right .card {
   height: 40px !important;
@@ -92,13 +96,13 @@ body{
 
 @media (max-width: 551px) {
     .right {
-        height: 150vh;
+        height: 178vh;
         width: 100%;
 }
 .right .card{
     width: 110% !important;
 }
-#u-btn, #n-btn{
-    margin-left: 58%;
+.buttons{
+   padding-left: 20px;
 }
 }
